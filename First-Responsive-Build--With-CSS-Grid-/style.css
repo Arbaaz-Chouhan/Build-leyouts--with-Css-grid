@@ -1,0 +1,296 @@
+body {
+    background-color: indigo;
+    overflow-x: hidden;
+
+}
+
+a {
+    color: aliceblue;
+    font-size: x-large;
+}
+
+body.p,
+a,
+ul,
+li {
+    margin: 0 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    color: aliceblue;
+}
+
+p {
+    color: aliceblue;
+}
+
+.button {
+    background: none;
+    border: 2px solid palevioletred;
+    color: lightcoral;
+    padding: 6px 12px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    box-shadow: 1px 2px 3px black;
+    display: inline-block;
+
+}
+
+.buttton:hover {
+    color: black;
+    background: gold;
+}
+
+input,
+textarea {
+    background: white;
+    padding: 10px 16px;
+    border-radius: 20px;
+    border: 2px solid #939393;
+    color: #af2ff2;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-size: x-large;
+    color: aliceblue;
+
+}
+
+h3 {
+    text-align: center;
+}
+
+p,
+a,
+li {
+    font-size: 1.2em;
+}
+
+h1,
+h3 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+.leading {
+    font-size: 1.1em;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 10px;
+}
+
+.Arbaaz a {
+    margin: 0 20px;
+}
+
+.Arbaaz ul {
+    display: none;
+}
+
+.Arbaaz h1 {
+    grid-column: 1/4;
+    grid-row: 1;
+    padding-bottom: 3px solid blue;
+    border-bottom: 3px solid b;
+}
+
+.welcome {
+    padding: 0 30px 20px 20px;
+
+
+}
+
+.welcome-text {
+    grid-column: 1/6;
+}
+
+.welcome img {
+    grid-column: 6/9;
+
+}
+
+.welcome-img {
+    width: 400%;
+    max-width: 200%;
+    margin: 0 30px 40px 0;
+    outline: none;
+    border-style: none;
+    padding: 0 30px;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.welcome-text a {
+    margin: 20px 0;
+}
+
+
+
+#portfolis {
+    padding: 30px 20px;
+    background: #080936;
+
+}
+
+.portolis h3 {
+    margin-left: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.projects a {
+    grid-column: 1/9;
+    margin: 20px 0;
+    display: flex;
+
+}
+
+.projects a * {
+    margin: 0 20px;
+    max-width: 500px;
+    align-self: center;
+
+}
+
+.projects h4 {
+    flex-grow: 1px;
+    color: lightcoral;
+
+
+}
+
+@media screen and (min-width: 620px) {}
+
+@media screen and (min-width: 960px) {
+    body {
+        font-size: 18px;
+    }
+
+    .grid {
+        width: 100%;
+        max-width: 1060px;
+        margin: 0 auto;
+    }
+
+    .Arbaaz ul {
+        display: flex;
+        grid-column: 6/9;
+        justify-content: flex-end;
+        align-self: center;
+
+    }
+
+    .Arbaaz li {
+        padding-top: 0;
+        margin-left: 20px;
+    }
+
+    .welcome-text {
+        align-self: center;
+    }
+
+    .welcome {
+        padding-top: 40px;
+    }
+
+    .projects a:nth-child(1) {
+        grid-column: 2/4;
+        align-items: center;
+    }
+
+    .projects a:nth-child(2) {
+        grid-column: 4/6;
+        align-items: center;
+
+    }
+
+    .projects a:nth-child(3) {
+        grid-column: 6/8;
+
+
+    }
+}
+
+@media screen and (min-width:1200px) {
+    body {
+        font-size: 20px;
+    }
+}
+
+#skills {
+    padding: 30px 20px;
+
+
+
+}
+
+#skills h3 {
+    text-align: center;
+}
+
+#skills ul {
+    margin: 0 20px;
+
+}
+
+#skills li {
+    padding: 10px;
+    grid-column: span 4;
+    text-align: center;
+
+}
+
+#skills-img {
+    background: #080936;
+
+
+}
+
+#contact {
+    padding: 30px 20px;
+    background: #080936;
+}
+
+#contact h3,
+#contact p {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#contact form {
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    margin: 10px 0;
+}
+
+#contact.button {
+    margin-top: 10px;
+}
+
+footer img {
+    margin: 30px auto;
+}
